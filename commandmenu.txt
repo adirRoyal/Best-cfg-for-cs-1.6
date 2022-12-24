@@ -1,0 +1,98 @@
+"1" "Admin-seting(admin-mode)"
+{ 
+
+"1" "mr15" "exec mr15.cfg"
+"2" "Prac" "exec prac.cfg"
+"3" "Rates" "exec rates.cfg"
+}
+"2" "MoDim"
+{
+"1" "Hs on" "admin_rcon amx_hitbox a"
+"2" "Hs off" "admin_rcon amx_hitbox abcedf"
+}
+"3" "Restart"
+{
+			"1" "Restart (1 sec)" "admin_rcon sv_restart 1"
+			"2" "Restart (3 sec)" "admin_rcon sv_restart 3"
+			"3" "Restart (5 sec)" "admin_rcon sv_restart 5"
+			"4" "Restart (7 sec)" "admin_rcon sv_restart 7"
+			"5" "Restart (10 sec)" "admin_rcon sv_restart 10"
+}
+"2" "Pkodot admin"
+{ 
+
+		"4" "Round Time"
+		{
+			"1" "1.75 Minutes" "admin_rcon mp_roundtime 1.75"
+			"2" "3 Minutes" "admin_rcon mp_roundtime 3"
+			"3" "5 Minutes" "admin_rcon mp_roundtime 5"
+			"4" "9 Minutes" "admin_rcon mp_roundtime 9"
+		}
+		"5" "Freeze Time"
+		{
+			"1" "0 Second" "admin_rcon mp_freezetime 0"
+			"2" "1 Second" "admin_rcon mp_freezetime 1"
+			"3" "1.5 Second" "admin_rcon mp_freezetime 1.5"
+			"4" "3 Second" "admin_rcon mp_freezetime 3"
+			"5" "5 Second" "admin_rcon mp_freezetime 5"
+			"6" "7 Second" "admin_rcon mp_freezetime 7"
+		}
+		"6" "Start Money"
+		{
+			"1" "800" "admin_rcon mp_startmoney 800"
+			"2" "1000" "admin_rcon mp_startmoney 1000"
+			"3" "8000" "admin_rcon mp_startmoney 8000"
+			"4" "16000" "admin_rcon mp_startmoney 16000"
+		}
+		"7" "Buy Time"
+		{
+			"1" "15 Second" "admin_rcon mp_buytime 0.15"
+			"2" "90 Second" "admin_rcon mp_buytime 1.5"
+			"3" "5 Minutes" "admin_rcon mp_buytime 5"
+			"4" "No limit" "admin_rcon mp_buytime 999"
+		}
+		"8" "Gravity"
+		{
+			"1" "10" "admin_gravity 10"
+			"2" "100" "admin_gravity 100"
+			"3" "200" "admin_gravity 200"
+			"4" "300" "admin_gravity 300"
+			"5" "800" "admin_gravity 800"
+		}
+		"9" "Auto Team Balance"
+		{
+			"1" "On" "admin_rcon mp_autoteambalance 1"
+			"2" "Off" "admin_rcon mp_autoteambalance 0"
+		}
+		"10" "Limit Teams"
+		{
+			"1" "On" "admin_rcon mp_limitteams 1"
+			"2" "Off" "admin_rcon mp_limitteams 0"
+		 }
+		"11" "Talking Players"
+		{
+		"1" "voiceenable"
+		{
+			"1" "On" "admin_rcon sv_voiceenable 1"
+			"2" "Off" "admin_rcon sv_voiceenable 0"
+		}
+		"2" "alltalk"
+		{
+			"1" "On" "admin_rcon sv_alltalk 1"
+			"2" "Off" "admin_rcon sv_alltalk 0"
+		}
+
+
+	}
+		"12" "Friendly Fire"
+		{
+			"1" "On" "admin_rcon mp_friendlyfire 1"
+			"2" "Off" "admin_rcon mp_friendlyfire 0"
+		}
+		"13" "Password Server"
+		{
+			 "1" "Pass" "messagemode admin_pass"
+			 "2" "No Pass" "admin_nopass"
+		}
+               }
+
