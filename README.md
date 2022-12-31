@@ -11,4 +11,6 @@ And you have all the admin commands for the server (only if you have admin acces
 All the binds for buying weapons can be found in the file: userconfig.cfg
 Research and understand the sequence of keys that will shorten your shopping time
 
+4)To get a nice and comfortable view, write the following command in the console without the hyphens   "exec SizeCrosshair.cfg".
+
 Hope I helped someone with my build 
